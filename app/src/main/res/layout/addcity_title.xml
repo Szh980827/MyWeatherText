@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/addcity_back"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@mipmap/back"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/addcity_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="添加城市"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</LinearLayout>
